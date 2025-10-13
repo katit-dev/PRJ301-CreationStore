@@ -1,0 +1,101 @@
+/* form.css */
+
+/* Nền mịn và chiều cao tối thiểu */
+body.bg-form {
+    background: linear-gradient(135deg, #e8f5e9, #f1f8e9);
+    min-height: 100vh;
+/*    padding-top: 40px;*/
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Container form */
+.form-container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+/* Tiêu đề */
+.form-container h1 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFA000;
+    margin-bottom: 30px;
+}
+
+/* Label */
+.form-container label {
+    font-weight: 500;
+    margin-bottom: 6px;
+    display: block;
+}
+
+/* Input và select */
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container input[type="email"],
+.form-container select {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    font-size: 15px;
+    transition: border-color 0.3s ease;
+}
+
+.form-container input:focus,
+.form-container select:focus {
+    border-color: #0d6efd;
+    outline: none;
+}
+
+/* Button */
+.form-container input[type="submit"] {
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Thông báo lỗi */
+.form-container .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: -12px;
+    margin-bottom: 16px;
+}
+
+/* Thông báo thành công */
+.form-container .success-message {
+    color: green;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+/* Link back */
+.form-container a.back-link {
+    display: inline-block;
+    margin-top: 16px;
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+.form-container a.back-link:hover {
+    text-decoration: underline;
+}

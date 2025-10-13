@@ -1,0 +1,106 @@
+/* welcome.css - Đồng bộ giao diện với register.jsp */
+
+body.bg-light-green {
+    background: linear-gradient(135deg, #e8f5e9, #f1f8e9);
+    min-height: 100vh;
+/*    padding-top: 20px;*/
+}
+
+/* Sửa style cho khối tìm kiếm và lọc */
+.bg-white.rounded-4.shadow-sm {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 24px;
+}
+
+h4.text-success {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+/* Product card layout */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.product-card {
+    width: 260px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+
+.product-info {
+    padding: 16px;
+}
+
+.product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 6px;
+}
+
+.product-description {
+    font-size: 14px;
+    color: #555;
+    min-height: 45px;
+}
+
+.product-price {
+    color: #e53935;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.product-validity {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 12px;
+}
+
+.buy-button {
+    display: inline-block;
+    background-color: #1976d2;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.buy-button:hover {
+    background-color: #1565c0;
+}
+
+.product-actions {
+    margin-top: 10px;
+}
+
+.product-actions .btn {
+    min-width: 100px;
+    font-weight: 500;
+    border-radius: 8px;
+}

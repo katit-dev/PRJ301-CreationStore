@@ -1,0 +1,41 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 25 Jul 2025, 00:59:46
+    Author     : Admin
+*/
+
+.contact-box {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 700px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-box h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #007bff;
+}
+
+.contact-info {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-info i {
+    margin-right: 8px;
+    color: #28a745;
+}
+
+.qr-img {
+    display: block;
+    margin: 20px auto;
+    max-width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}

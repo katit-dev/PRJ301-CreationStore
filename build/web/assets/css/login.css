@@ -1,0 +1,47 @@
+body.bg-light-green {
+    background-color: #e6f4ea;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #d1e7dd;
+}
+
+.btn-success {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.btn-success:hover {
+    background-color: #157347;
+    border-color: #157347;
+}
+body.bg-light-green {
+    background-color: #e6f4ea;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #d1e7dd;
+}
+
+.btn-success {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.btn-success:hover {
+    background-color: #157347;
+    border-color: #157347;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 70%;
+    right: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #6c757d;
+    z-index: 10;
+}

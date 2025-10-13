@@ -1,0 +1,56 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 15 Jul 2025, 02:19:52
+    Author     : Admin
+*/
+
+/* admin.css */
+
+body.bg-light-green {
+    background: linear-gradient(135deg, #e8f5e9, #f1f8e9);
+    min-height: 100vh;
+/*    padding-top: 20px;*/
+}
+
+/* Điều chỉnh khoảng cách tổng thể */
+.admin-wrapper {
+    padding: 40px 20px;
+}
+
+/* Tiêu đề chính */
+.admin-wrapper h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFA000; /* Bootstrap green */
+    margin-bottom: 30px;
+}
+
+/* Các card chức năng */
+.admin-card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    padding: 24px;
+    transition: transform 0.2s ease;
+}
+
+.admin-card:hover {
+    transform: translateY(-4px);
+}
+
+/* Tiêu đề từng box quản lý */
+.admin-card h4 {
+    font-weight: 600;
+    color: #0d6efd; /* Bootstrap blue */
+    margin-bottom: 16px;
+}
+
+/* Nút chức năng */
+.admin-card .btn {
+    margin-right: 8px;
+    margin-bottom: 6px;
+}

@@ -1,0 +1,62 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 23 Jul 2025, 12:02:27
+    Author     : Admin
+*/
+
+/* Màu nền nhẹ */
+body {
+    background-color: #f5fef6; /* xanh lá rất nhạt */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Tiêu đề giỏ hàng */
+h2 {
+    color: #2e7d32;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Bảng sản phẩm */
+table.table {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Tiêu đề cột bảng */
+table thead {
+    background-color: #a5d6a7;
+    color: #1b5e20;
+}
+
+/* Dòng sản phẩm */
+table tbody tr:hover {
+    background-color: #e8f5e9;
+    transition: background-color 0.3s;
+}
+
+/* Căn chỉnh các ô */
+table td, table th {
+    vertical-align: middle;
+    text-align: center;
+    padding: 12px 8px;
+}
+
+/* Nút hành động */
+.btn-action {
+    background-color: #66bb6a;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+.btn-action:hover {
+    background-color: #388e3c;
+    color: white;
+}
